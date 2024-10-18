@@ -1,0 +1,181 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Young Serif", "Outfit", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  background-color: #f3e6d8;
+}
+
+.tempo-preparacao h3,
+p,
+li {
+  font-family: "Outfit";
+}
+
+span {
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Style */
+
+body {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  width: 90%;
+  margin: 0 auto;
+  border: 0;
+  border-top: 1px solid #4040403d;
+}
+
+.container {
+  width: 35%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  margin: 5rem 0 5rem 0;
+}
+
+.ingredientes h3,
+.intrucoes h3,
+.nutricao h3 {
+  color: #854632;
+}
+
+.topo-receita h1,
+.topo-receita p {
+  padding-left: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.topo-receita p {
+  font-family: "Outfit";
+  padding-right: 3rem;
+}
+
+.topo-receita img {
+  max-width: 100%;
+  height: auto;
+  padding: 3.5rem;
+  border-radius: 5rem;
+}
+
+.tempo-preparacao {
+  background-color: #fff5fa;
+  padding: 2rem 5rem;
+  margin: 3rem;
+  border-radius: 1rem;
+}
+
+.tempo-preparacao ul {
+  padding: 0 0 0 2.5rem;
+  padding-bottom: 1rem;
+}
+
+.tempo-preparacao li {
+  padding-bottom: 1rem;
+}
+
+.tempo-preparacao li::marker {
+  color: #7b284f;
+  font-size: 1.2rem;
+}
+
+.tempo-preparacao span {
+  padding-left: 2rem;
+}
+
+.tempo-preparacao h3 {
+  padding-bottom: 1rem;
+  color: #7b284f;
+}
+
+.ingredientes h3,
+.intrucoes h3,
+.nutricao h3 {
+  padding-left: 3.5rem;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.ingredientes ul {
+  padding: 2rem 5rem 2rem 5rem;
+}
+
+.ingredientes li,
+.intrucoes li {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+}
+
+.ingredientes li::marker {
+  color: #854632;
+  font-size: 1.2rem;
+}
+
+.intrucoes h3 {
+  padding-top: 3rem;
+}
+
+.intrucoes ol {
+  padding: 2rem 5rem 2rem 5rem;
+}
+
+.intrucoes li::marker {
+  color: #854632;
+  font-weight: 700;
+}
+
+.nutricao h3 {
+  padding-top: 2.5rem;
+}
+
+.texto-nutri {
+  padding-left: 3.5rem;
+  padding-top: 1.5rem;
+}
+
+.container-proteinas {
+  padding: 2rem 0 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.realce {
+  font-weight: 700;
+  color: #854632;
+  text-align: left;
+  width: 5rem;
+}
+
+.proteinas {
+  padding: 1rem 7rem 1rem 7rem;
+  padding-right: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
