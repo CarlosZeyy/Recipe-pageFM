@@ -1,0 +1,57 @@
+@media (max-width: 540px) {
+  body {
+    display: inline-block;
+    font-size: 1.6rem;
+    max-width: 50rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    flex-direction: column;
+    border-radius: 0;
+  }
+
+  .tempo-preparacao,
+  .ingredientes,
+  .intrucoes,
+  .nutricao {
+    width: 70%;
+  }
+
+  .attribution {
+    display: none;
+  }
+
+  .topo-receita img {
+    width: 100%;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .topo-receita p {
+    width: 75%;
+  }
+
+  .realce {
+    font-weight: 700;
+    color: #854632;
+    text-align: left;
+    width: 5rem;
+  }
+
+  .texto-nutri {
+    padding-right: 2rem;
+  }
+
+  .proteinas {
+    width: 50rem;
+    gap: 5rem;
+  }
+}
